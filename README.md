@@ -30,21 +30,13 @@ ipython
 
 ## Accessing data
 For this assignment, we'll be using the classic [iris dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set). We'll ask you to load the dataset and provide some descriptive statistics.
-I've started the code for you here below:
-
-```
-import numpy as np
-import pandas as pd
-
-iris_dataset = 'https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv'
-
-iris = np.recfromcsv(iris_dataset, encoding=None)  # in numpy
-iris = pd.read_csv(iris_dataset)  # in pandas
-```
+I've started the code for you in the associated [`descriptive_statistics.py`](https://github.com/reprocourse/template-a2-data-in-python/blob/master/descriptive_statistics.py) file.
 
 ## Calculating descriptive statistics
-Please extend the code block above to include calculating descriptive statistics in either `numpy` **or** `pandas`.
-When handing in your assignment, please make sure to fill in all requested fields below:
+In your copy of the repository, please extend the [`descriptive_statistics.py`](https://github.com/reprocourse/template-a2-data-in-python/blob/master/descriptive_statistics.py) code to include calculating descriptive statistics in either `numpy` **or** `pandas`.
+
+## How to submit
+When you are ready to submit, [please open a pull request](https://help.github.com/articles/creating-a-pull-request/) on your copy of the repostiory with the modified  [`descriptive_statistics.py`](https://github.com/reprocourse/template-a2-data-in-python/blob/master/descriptive_statistics.py) code and the table below completed:
 
 | Iris type | Mean Sepal Length| Standard Deviation of Sepal Length |
 |-----------|:----------------:|:----------------------------------:|
